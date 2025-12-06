@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LISTA04</title>
+</head>
+
+<body>
+    <script>
+        let n = Number(prompt("Digite o tamanho da base do triângulo:"));
+        let i = 1;
+        let linhas = "";
+
+        do {
+            let linha = "*".repeat(i);
+            linhas += linha + "\n";
+            i++;
+        } while (i <= n);
+
+        alert(linhas);
+
+    </script>
+</body>
+
+</html>
